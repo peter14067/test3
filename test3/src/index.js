@@ -20,7 +20,7 @@ const STATUS_TODO = 'STATUS_TODO';
 			let tasks = [{
 				id: 0,
 				status: STATUS_TODO,
-				title: '200',
+				title: '',
 				username: '',
 			
 			}]
@@ -103,9 +103,7 @@ const STATUS_TODO = 'STATUS_TODO';
 					tasks: tasks,
 					activeId: null
 				}
-				/**
-				 * 传入被拖拽任务项的 id
-				 */
+			
 				onDragStart = (id) => {
 					this.setState({
 						activeId: id
@@ -169,7 +167,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
