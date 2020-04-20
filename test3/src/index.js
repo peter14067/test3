@@ -20,7 +20,7 @@ const STATUS_TODO = 'STATUS_TODO';
 			let tasks = [{
 				id: 0,
 				status: STATUS_TODO,
-				title: '',
+				title: '請移動我',
 				username: '',
 			
 			}]
